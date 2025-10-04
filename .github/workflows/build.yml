@@ -2,8 +2,8 @@ name: bluebuild
 on:
   schedule:
     - cron:
-        "00 06 * * *" # build at 06:00 UTC every day
-        # (20 minutes after last ublue images start building)
+        "10 06 * * *" # build at 06:10 UTC every day
+        # (30 minutes after last ublue images start building)
   push:
     paths-ignore: # don't rebuild if only documentation has changed
       - "**.md"
@@ -26,8 +26,7 @@ jobs:
       fail-fast: false # stop GH from cancelling all matrix builds if one fails
       matrix:
         recipe:
-          # !! Add your recipes here
-          - recipe.yml
+          - recipe-kinoite.yml
     steps:
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
@@ -40,3 +39,9 @@ jobs:
 
           # enabled by default, disable if your image is small and you want faster builds
           maximize_build_space: true
+
+          # it does not do with :chunked, yet!
+          build_opts: --compression-format zstd
+
+          # in case of registry failure
+          retry_push_count: 3

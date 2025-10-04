@@ -1,0 +1,72 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+name: bazzite-stable
+description: My personal flavor of Bazzite
+base-image: ghcr.io/ublue-os/bazzite
+image-version: stable
+
+modules:
+  - type: containerfile
+    snippets:
+      - COPY --from=ghcr.io/ublue-os/config:latest /files/ublue-os-udev-rules /
+      - ADD https://openrgb.org/releases/release_0.9/60-openrgb.rules /usr/lib/udev/rules.d
+
+  - type: files
+    files:
+      - source: system
+        destination: /
+
+  - type: dnf
+    repos:
+      copr:
+        - atim/starship
+        - hhd-dev/hhd
+      files:
+        - https://repo.librewolf.net/librewolf.repo
+    install:
+      packages:
+        - adjustor
+        - byobu
+        - cdrskin
+        - clatd
+        - hhd
+        - hhd-ui
+        - hw-probe
+        - htop
+        - k3b
+        - kitty
+        - https://github.com/rmcrackan/Libation/releases/download/v12.5.4/Libation.12.5.4-linux-chardonnay-amd64.rpm
+        - librewolf
+        - micro
+        - neovim
+        - rmlint
+        - starship
+    remove:
+      packages:
+        - tailscale
+
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - Hack
+        - Terminus
+
+  - type: systemd
+    system:
+      enabled:
+        - clatd.service
+        - podman.service
+        - sshd.service
+        - zram-compaction.timer
+        - zram-recompression.timer
+      masked:
+        - cpupower.service
+        - power-profiles-daemon.service
+        - tuned.service
+
+  - type: kargs
+    arch: x86_64
+    kargs:
+      - rootflags=subvol=root,compress-force=zstd:3,discard=async,lazytime,noatime,space_cache=v2,x-systemd.device-timeout=0
+
+  - type: signing
