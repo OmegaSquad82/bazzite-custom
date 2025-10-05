@@ -5,10 +5,15 @@
   ],
   "customManagers": [
     {
-      "customType": "libation",
-      "datasourceTemplate": "github-release"
-      "managerFilePatterns": ["recipes/recipe-*.yml"],
-      "packageName": "rmcrackan/Libation"
+      "customType": "regex",
+      "datasource": "github-releases",
+      "packageName": "rmcrackan/Libation",
+      "managerFilePatterns": [
+        "recipes/recipe-*.yml"
+      ],
+      "matchStrings": [
+        "(?<registryUrl>.*?)(?<packageName>.*?)/releases/download/v(?<currentValue>.*?)/Libation.(?<currentValue>.*?)-linux-chardonnay-amd64.rpm"
+      ]
     }
   ]
 }
