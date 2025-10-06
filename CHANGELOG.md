@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/OmegaSquad82/custom-ublue-os/compare/v1.0.0...v1.0.1) (2025-10-05)
+
+
+### Bug Fixes
+
+* renovate config (1/n) ([07ac55d](https://github.com/OmegaSquad82/custom-ublue-os/commit/07ac55dd6e25a97263df75aae91b74673d4c4133))
+* renovate config (1/n) ([e9c6fda](https://github.com/OmegaSquad82/custom-ublue-os/commit/e9c6fdacf0051db02ebbe48d11546084c2a13c6b))
+
 ## 1.0.0 (2025-10-05)
 
 
