@@ -20,13 +20,11 @@ modules:
     repos:
       copr:
         - atim/starship
+        - emixampp/synology-drive
         - hhd-dev/hhd
-      files:
-        - https://repo.librewolf.net/librewolf.repo
     install:
       packages:
         - adjustor
-        - byobu
         - cdrskin
         - clatd
         - hhd
@@ -34,16 +32,37 @@ modules:
         - hw-probe
         - htop
         - k3b
-        - kitty
         - https://github.com/rmcrackan/Libation/releases/download/v12.5.4/Libation.12.5.4-linux-chardonnay-amd64.rpm
-        - librewolf
-        - micro
         - neovim
         - rmlint
         - starship
+        - synology-drive
     remove:
       packages:
         - tailscale
+
+  - type: default-flatpaks
+    configurations:
+      - scope: user
+        repo:
+          # you can override the title to make inclusion of both system and user repos clearer
+          title: Flathub (user)
+      - notify: true
+        scope: system
+        repo:
+          title: Flathub (system)
+        install: # system flatpaks we want all users to have and not remove
+          - com.github.tchx84.Flatseal
+          - com.vscodium.codium
+          - io.github.dvlv.boxbuddyrs
+          - io.github.flattool.Warehouse
+          - io.github.pol_rivero.github-desktop-plus
+          - io.github.pwr_solaar.solaar
+          - io.gitlab.librewolf-community
+          - io.podman_desktop.PodmanDesktop
+          - org.keepassxc.KeePassXC
+          - org.libreoffice.LibreOffice
+          - org.signal.Signal
 
   - type: fonts
     fonts:
