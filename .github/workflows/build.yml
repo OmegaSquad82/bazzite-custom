@@ -43,5 +43,8 @@ jobs:
           # it does not do with :chunked, yet!
           build_opts: --compression-format zstd
 
+          # customizations into single layer
+          squash: true
+
           # in case of registry failure
           retry_push_count: 3
