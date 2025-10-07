@@ -17,21 +17,6 @@
       ]
     }
   ],
-  "packageRules": [
-    {
-      "matchDatasources": [
-        "github-releases"
-      ],
-      "matchDepNames": [
-        "rmcrackan/Libation"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "automerge": true
-    }
-  ],
   "pre-commit": {
     "enabled": true
   }
