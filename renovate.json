@@ -7,14 +7,17 @@
     {
       "customType": "regex",
       "datasourceTemplate": "github-releases",
-      "packageName": "rmcrackan/Libation",
+      "depNameTemplate": "rmcrackan/Libation",
       "managerFilePatterns": [
         "recipes/recipe-*.yml"
       ],
       "matchStrings": [
-        "(?<registryUrl>.*?)(?<packageName>.*?)/releases/download/v(?<currentValue>.*?)/Libation.(?<currentValue>.*?)-linux-chardonnay-amd64.rpm"
-      ],
-      "autoReplaceStringTemplate": "{{{registryUrl}}}{{{packageName}}}/releases/download/v{{{newValue}}}/{{{depName}}}.{{{newValue}}}-linux-chardonnay-amd64.rpm"
+        "v(?<currentValue>.*?)/",
+        ".(?<currentValue>.*?)-"
+      ]
     }
-  ]
+  ],
+  "pre-commit": {
+    "enabled": true
+  }
 }
