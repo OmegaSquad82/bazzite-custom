@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.1.0](https://github.com/OmegaSquad82/custom-ublue-os/compare/v1.0.1...v1.1.0) (2025-10-07)
+
+
+### Features
+
+* adding default-flatpaks ([00d0c86](https://github.com/OmegaSquad82/custom-ublue-os/commit/00d0c8652cf5f7e16bea9d25802c8c340c6f9dc7))
+* adding default-flatpaks ([1167ce2](https://github.com/OmegaSquad82/custom-ublue-os/commit/1167ce232c80075da247ea48552a46cd76661a94))
+* created pre-commit config ([9480415](https://github.com/OmegaSquad82/custom-ublue-os/commit/9480415862ed73be27144e1119fb969ffbc56334))
+* created pre-commit config ([1522769](https://github.com/OmegaSquad82/custom-ublue-os/commit/15227692ce2172ba6fdb0df0996d3d85e82a3878))
+
+
+### Bug Fixes
+
+* let only minor+patch be updated for Libation ([578c949](https://github.com/OmegaSquad82/custom-ublue-os/commit/578c9499b3b3ae31d9115c769dc117c3d04ca760))
+* make matchStrings for Libation more specific ([bc69da4](https://github.com/OmegaSquad82/custom-ublue-os/commit/bc69da44d577d94021a75ac00f4579be8725b5a8))
+* try adding replace tamplate ([ff948f1](https://github.com/OmegaSquad82/custom-ublue-os/commit/ff948f1f81bb17bf020aa2a85e9cf0a177d18901))
+* try adding replace tamplate ([20001e9](https://github.com/OmegaSquad82/custom-ublue-os/commit/20001e95d802b39deb902002d485c6abbeeaf16b))
+* updated renovate.json ([1522769](https://github.com/OmegaSquad82/custom-ublue-os/commit/15227692ce2172ba6fdb0df0996d3d85e82a3878))
+
 ## [1.0.1](https://github.com/OmegaSquad82/custom-ublue-os/compare/v1.0.0...v1.0.1) (2025-10-05)
 
 
