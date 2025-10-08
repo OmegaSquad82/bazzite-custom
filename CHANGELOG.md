@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/OmegaSquad82/custom-ublue-os/compare/v1.1.0...v1.1.1) (2025-10-08)
+
+
+### Bug Fixes
+
+* get rid of GNOME dependencies ([5846c59](https://github.com/OmegaSquad82/custom-ublue-os/commit/5846c59315b671d8e8073ac8f05cb0995be1d9a6))
+
 ## [1.1.0](https://github.com/OmegaSquad82/custom-ublue-os/compare/v1.0.1...v1.1.0) (2025-10-07)
 
 
