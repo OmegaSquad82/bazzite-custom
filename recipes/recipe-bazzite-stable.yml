@@ -36,7 +36,7 @@ modules:
         - neovim
         - rmlint
         - starship
-        - synology-drive-noextras
+        - synology-drive-noextra
     remove:
       packages:
         - tailscale
