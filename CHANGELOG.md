@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/OmegaSquad82/custom-ublue-os/compare/v1.1.1...v1.2.0) (2025-10-08)
+
+
+### Features
+
+* use easier ruleset for Libation ([3bd6009](https://github.com/OmegaSquad82/custom-ublue-os/commit/3bd600913f674af7e16f5c4682c8c62dbb104067))
+
 ## [1.1.1](https://github.com/OmegaSquad82/custom-ublue-os/compare/v1.1.0...v1.1.1) (2025-10-08)
 
 
