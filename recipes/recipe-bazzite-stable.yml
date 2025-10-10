@@ -24,7 +24,6 @@ modules:
       packages:
         - cdrskin
         - clatd
-        - hw-probe
         - htop
         - k3b
         - https://github.com/rmcrackan/Libation/releases/download/v12.5.4/Libation.12.5.4-linux-chardonnay-amd64.rpm
@@ -53,15 +52,18 @@ modules:
           title: Flathub (system)
         install: # system flatpaks we want all users to have and not remove
           - com.daniel15.wcc
+          - com.discordapp.Discord
           - com.github.Matoking.protontricks
           - com.github.tchx84.Flatseal
+          - com.logseq.Logseq
           - com.ranfdev.DistroShelf
           - com.vscodium.codium
           - com.vysp3r.ProtonPlus
           - org.fedoraproject.MediaWriter
           - io.github.flattool.Warehouse
-          - io.github.pol_rivero.github-desktop-plus
+          - io.github.nroduit.Weasis
           - io.gitlab.librewolf-community
+          - io.github.pol_rivero.github-desktop-plus
           - io.github.ungoogled_software.ungoogled_chromium
           - io.podman_desktop.PodmanDesktop
           - md.obsidian.Obsidian
@@ -71,6 +73,7 @@ modules:
           - org.kde.okular
           - org.keepassxc.KeePassXC
           - org.libreoffice.LibreOffice
+          - org.openrgb.OpenRGB
 
   - type: fonts
     fonts:
