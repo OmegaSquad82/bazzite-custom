@@ -51,7 +51,7 @@ modules:
           - com.github.tchx84.Flatseal
           - com.ranfdev.DistroShelf
           - com.vscodium.codium
-          - com.ranfdev.DistroShelf
+          - com.vysp3r.ProtonPlus
           - io.github.flattool.Warehouse
           - io.github.pol_rivero.github-desktop-plus
           - io.github.pwr_solaar.solaar
