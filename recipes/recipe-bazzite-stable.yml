@@ -19,23 +19,17 @@ modules:
   - type: dnf
     repos:
       copr:
-        - atim/starship
         - emixampp/synology-drive
-        - hhd-dev/hhd
     install:
       packages:
-        - adjustor
         - cdrskin
         - clatd
-        - hhd
-        - hhd-ui
         - hw-probe
         - htop
         - k3b
         - https://github.com/rmcrackan/Libation/releases/download/v12.5.4/Libation.12.5.4-linux-chardonnay-amd64.rpm
-        - neovim
+        - micro
         - rmlint
-        - starship
         - synology-drive-noextra
     remove:
       packages:
@@ -43,23 +37,30 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - scope: user
+      - notify: false
+        scope: user
         repo:
           # you can override the title to make inclusion of both system and user repos clearer
           title: Flathub (user)
-      - notify: true
+      - notify: false
         scope: system
         repo:
           title: Flathub (system)
         install: # system flatpaks we want all users to have and not remove
+          - com.github.Matoking.protontricks
           - com.github.tchx84.Flatseal
+          - com.ranfdev.DistroShelf
           - com.vscodium.codium
-          - io.github.dvlv.boxbuddyrs
+          - com.ranfdev.DistroShelf
           - io.github.flattool.Warehouse
           - io.github.pol_rivero.github-desktop-plus
           - io.github.pwr_solaar.solaar
           - io.gitlab.librewolf-community
           - io.podman_desktop.PodmanDesktop
+          - org.kde.gwenview
+          - org.kde.haruna
+          - org.kde.kcalc
+          - org.kde.okular
           - org.keepassxc.KeePassXC
           - org.libreoffice.LibreOffice
           - org.signal.Signal
@@ -78,10 +79,6 @@ modules:
         - sshd.service
         - zram-compaction.timer
         - zram-recompression.timer
-      masked:
-        - cpupower.service
-        - power-profiles-daemon.service
-        - tuned.service
 
   - type: kargs
     arch: x86_64
