@@ -46,6 +46,7 @@ modules:
           - io.github.pwr_solaar.solaar
           - org.jitsi.jitsi-meet
           - org.signal.Signal
+          - org.videolan.VLC
       - notify: false
         scope: system
         repo:
@@ -70,7 +71,6 @@ modules:
           - org.kde.okular
           - org.keepassxc.KeePassXC
           - org.libreoffice.LibreOffice
-          - org.videolan.vlc
 
   - type: fonts
     fonts:
