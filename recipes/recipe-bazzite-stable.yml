@@ -40,30 +40,37 @@ modules:
       - notify: false
         scope: user
         repo:
-          # you can override the title to make inclusion of both system and user repos clearer
           title: Flathub (user)
+        install: # unverified flatpaks go here to easily tell the difference
+          - com.calibre_ebook.calibre
+          - io.github.pwr_solaar.solaar
+          - org.jitsi.jitsi-meet
+          - org.signal.Signal
+          - org.videolan.VLC
       - notify: false
         scope: system
         repo:
           title: Flathub (system)
         install: # system flatpaks we want all users to have and not remove
+          - com.daniel15.wcc
           - com.github.Matoking.protontricks
           - com.github.tchx84.Flatseal
           - com.ranfdev.DistroShelf
           - com.vscodium.codium
           - com.vysp3r.ProtonPlus
+          - org.fedoraproject.MediaWriter
           - io.github.flattool.Warehouse
           - io.github.pol_rivero.github-desktop-plus
-          - io.github.pwr_solaar.solaar
           - io.gitlab.librewolf-community
+          - io.github.ungoogled_software.ungoogled_chromium
           - io.podman_desktop.PodmanDesktop
+          - md.obsidian.Obsidian
           - org.kde.gwenview
           - org.kde.haruna
           - org.kde.kcalc
           - org.kde.okular
           - org.keepassxc.KeePassXC
           - org.libreoffice.LibreOffice
-          - org.signal.Signal
 
   - type: fonts
     fonts:
