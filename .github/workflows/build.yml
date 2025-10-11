@@ -28,6 +28,12 @@ jobs:
         recipe:
           - recipe-bazzite-stable.yml
     steps:
+      - name: Maximize build space
+        uses: OmegaSquad82/maximize-build-space@master
+        with:
+          overprovision-lvm: true
+          compressed-btrfs: true
+      
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
         uses: blue-build/github-action@v1.9.1
@@ -38,7 +44,7 @@ jobs:
           pr_event_number: ${{ github.event.number }}
 
           # enabled by default, disable if your image is small and you want faster builds
-          maximize_build_space: true
+          maximize_build_space: false
 
           # it does not do with :chunked, yet!
           build_opts: --compression-format zstd
