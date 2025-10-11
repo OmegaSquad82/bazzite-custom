@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.3.0](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.2.0...v1.3.0) (2025-10-11)
+
+
+### Features
+
+* add more flatpaks ([e7ba319](https://github.com/OmegaSquad82/bazzite-custom/commit/e7ba319807d8bca8012202afa001063da04a6bdb))
+* add more flatpaks ([0f3c17c](https://github.com/OmegaSquad82/bazzite-custom/commit/0f3c17cbd4300d97a2aaa78a9d13aeba97279ccd))
+* clean up dependencies to reduce image size ([477abbe](https://github.com/OmegaSquad82/bazzite-custom/commit/477abbe1ff5f58e571991711ee73e483452e00f8))
+* more and more flatpaks ([8da42f7](https://github.com/OmegaSquad82/bazzite-custom/commit/8da42f76ae31f3aa0dcc1892fd3bdb921797a191))
+* re-chuck when on main branch ([2bebb14](https://github.com/OmegaSquad82/bazzite-custom/commit/2bebb14f818ec94638cd7deddcbd96591c43a333))
+* switch to forked easimon/maximize-build-space ([a33f92a](https://github.com/OmegaSquad82/bazzite-custom/commit/a33f92a67eea71df3974149476e9d91d68c1b89f))
+* switch to forked easimon/maximize-build-space ([f69be9f](https://github.com/OmegaSquad82/bazzite-custom/commit/f69be9fabfe66f8e9f57331b8f8ab235c9424507))
+
+
+### Bug Fixes
+
+* ProtonPlus is where second DistroShelf was ([9f5f937](https://github.com/OmegaSquad82/bazzite-custom/commit/9f5f937d8bae26cecb245eb1e360ea8f0d36110f))
+
 ## [1.2.0](https://github.com/OmegaSquad82/custom-ublue-os/compare/v1.1.1...v1.2.0) (2025-10-08)
 
 
