@@ -31,7 +31,7 @@ jobs:
       - name: Maximize build space
         uses: OmegaSquad82/maximize-build-space@master
         with:
-          overprovision-lvm: true
+          # overprovision-lvm: true
           btrfs-compression: true
       
       # the build is fully handled by the reusable github action
