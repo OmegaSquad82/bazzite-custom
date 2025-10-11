@@ -32,7 +32,7 @@ jobs:
         uses: OmegaSquad82/maximize-build-space@master
         with:
           overprovision-lvm: true
-          compressed-btrfs: true
+          btrfs-compression: true
       
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
