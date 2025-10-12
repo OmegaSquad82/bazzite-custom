@@ -24,6 +24,7 @@ modules:
       packages:
         - cdrskin
         - clatd
+        - git
         - htop
         - k3b
         - https://github.com/rmcrackan/Libation/releases/download/v12.5.4/Libation.12.5.4-linux-chardonnay-amd64.rpm
@@ -32,7 +33,10 @@ modules:
         - synology-drive-noextra
     remove:
       packages:
-        - rocm
+        - rocm-hip
+        - rocm-opencl
+        - rocm-clinfo
+        - rocm-smi
         - tailscale
 
   - type: default-flatpaks
