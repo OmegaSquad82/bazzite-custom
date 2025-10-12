@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.1](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.3.0...v1.3.1) (2025-10-12)
+
+
+### Bug Fixes
+
+* really remove rocm but keep git ([cf30644](https://github.com/OmegaSquad82/bazzite-custom/commit/cf3064452efb4ccc2e0f78ee585c8717c8db6ac8))
+* remove unused rocm packages ([5f8f3e3](https://github.com/OmegaSquad82/bazzite-custom/commit/5f8f3e3c4d268036b5eb0ac0410bba9d602ad06a))
+
 ## [1.3.0](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.2.0...v1.3.0) (2025-10-11)
 
 
