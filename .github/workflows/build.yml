@@ -10,6 +10,10 @@ on:
       - ".pre-commit-config.yaml"
 
   pull_request:
+    paths-ignore: # don't rebuild if only documentation has changed
+      - "**.md"
+      - ".pre-commit-config.yaml"
+
   workflow_dispatch: # allow manually triggering builds
 concurrency:
   # only run one build at a time
