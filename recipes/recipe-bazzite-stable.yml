@@ -6,10 +6,6 @@ base-image: ghcr.io/ublue-os/bazzite
 image-version: stable
 
 modules:
-  - type: containerfile
-    snippets:
-      - ADD --chmod=644 https://openrgb.org/releases/release_0.9/60-openrgb.rules /usr/lib/udev/rules.d
-
   - type: files
     files:
       - source: system
@@ -28,6 +24,7 @@ modules:
         - k3b
         - https://github.com/rmcrackan/Libation/releases/download/v12.5.4/Libation.12.5.4-linux-chardonnay-amd64.rpm
         - micro
+        - openrgb
         - rmlint
         - synology-drive-noextra
     remove:
@@ -80,7 +77,6 @@ modules:
           - org.kde.okular
           - org.keepassxc.KeePassXC
           - org.libreoffice.LibreOffice
-          - org.openrgb.OpenRGB
           - org.torproject.torbrowser-launcher
 
   - type: fonts
