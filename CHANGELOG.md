@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.2](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.3.1...v1.3.2) (2025-10-13)
+
+
+### Bug Fixes
+
+* add some apps ([01152b0](https://github.com/OmegaSquad82/bazzite-custom/commit/01152b0dcc498dd8a3fc2b8433b85519ec621009))
+* add some apps ([8134819](https://github.com/OmegaSquad82/bazzite-custom/commit/813481978223015efe76f0cc233a527c0adb81cc))
+
 ## [1.3.1](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.3.0...v1.3.1) (2025-10-12)
 
 
