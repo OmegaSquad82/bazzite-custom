@@ -19,6 +19,7 @@ modules:
       packages:
         - cdrskin
         - clatd
+        - ddrescue
         - git
         - htop
         - k3b
