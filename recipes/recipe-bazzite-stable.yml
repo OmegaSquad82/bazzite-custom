@@ -24,6 +24,7 @@ modules:
         - htop
         - k3b
         - https://github.com/rmcrackan/Libation/releases/download/v12.5.4/Libation.12.5.4-linux-chardonnay-amd64.rpm
+        - lziprecover
         - micro
         - openrgb
         - rmlint
