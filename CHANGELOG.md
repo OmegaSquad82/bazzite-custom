@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.3.2...v1.3.3) (2025-10-13)
+
+
+### Bug Fixes
+
+* do not rebuild the image on pre commit config changes ([ed7c7cf](https://github.com/OmegaSquad82/bazzite-custom/commit/ed7c7cf50688758f6ffe79fbecd5e68c39dced1e))
+
 ## [1.3.2](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.3.1...v1.3.2) (2025-10-13)
 
 
