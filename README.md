@@ -1,8 +1,8 @@
-# custom-bazzite &nbsp; [![bluebuild build badge](https://github.com/omegasquad82/custom-bazzite/actions/workflows/build.yml/badge.svg)](https://github.com/omegasquad82/custom-bazzite/actions/workflows/build.yml)
+# bazzite-custom &nbsp; [![bluebuild build badge](https://github.com/omegasquad82/bazzite-custom/actions/workflows/build.yml/badge.svg)](https://github.com/omegasquad82/bazzite-custom/actions/workflows/build.yml)
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
-This custom image derives from [bazzite](https://bazzite.gg/ "Bazzite - The next generation of Linux gaming") and is intended for everyday usage.
+This custom image derives from [Bazzite](https://bazzite.gg/ "Bazzite - The next generation of Linux gaming") and is intended for everyday usage.
 
 ## Installation
 
