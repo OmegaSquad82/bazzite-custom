@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.3.4](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.3.3...v1.3.4) (2025-10-13)
+
+
+### Bug Fixes
+
+* no build on pr when only docs or pre commit config changed ([bb7a06e](https://github.com/OmegaSquad82/bazzite-custom/commit/bb7a06e6ecf37f8eaf241dd3f40057cd1702b850))
+* OpenRGB should be able to read its rules ([0571e10](https://github.com/OmegaSquad82/bazzite-custom/commit/0571e10c9c679de05b62fd5861f759b2d6b06696))
+* ship with OpenRGB ([6da3e68](https://github.com/OmegaSquad82/bazzite-custom/commit/6da3e680ab9467d426fe35ac94e7348dd63edd74))
+
 ## [1.3.3](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.3.2...v1.3.3) (2025-10-13)
 
 
