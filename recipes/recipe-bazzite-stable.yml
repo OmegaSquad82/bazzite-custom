@@ -65,13 +65,16 @@ modules:
           - com.vscodium.codium
           - com.vysp3r.ProtonPlus
           - org.fedoraproject.MediaWriter
+          - info.beyondallreason.bar
           - io.github.flattool.Warehouse
           - io.github.nroduit.Weasis
           - io.gitlab.librewolf-community
+          - io.github.pieterdd.StretchBreak
           - io.github.pol_rivero.github-desktop-plus
           - io.github.ungoogled_software.ungoogled_chromium
           - io.podman_desktop.PodmanDesktop
           - md.obsidian.Obsidian
+          - net.ptilouk.superfluous
           - org.kde.gwenview
           - org.kde.haruna
           - org.kde.kcalc
@@ -79,6 +82,7 @@ modules:
           - org.keepassxc.KeePassXC
           - org.libreoffice.LibreOffice
           - org.openrgb.OpenRGB
+          - org.torproject.torbrowser-launcher
 
   - type: fonts
     fonts:
