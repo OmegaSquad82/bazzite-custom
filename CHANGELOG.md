@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.5](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.3.4...v1.3.5) (2025-10-14)
+
+
+### Bug Fixes
+
+* add ddrescue to the flock ([ccca7d2](https://github.com/OmegaSquad82/bazzite-custom/commit/ccca7d29084da4089ee64d1b0c3921318e1c08b7))
+* add lziprecover to the flock ([5620d4b](https://github.com/OmegaSquad82/bazzite-custom/commit/5620d4bae2af3ba4d4f5ca5f20b8f08e87813305))
+
 ## [1.3.4](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.3.3...v1.3.4) (2025-10-13)
 
 
