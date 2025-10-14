@@ -87,6 +87,9 @@ modules:
         - Hack
         - Terminus
 
+  - type: chezmoi
+    repository: "https://github.com/OmegaSquad82/dotfiles"
+
   - type: systemd
     system:
       enabled:
