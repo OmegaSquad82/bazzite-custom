@@ -13,10 +13,6 @@ To rebase an existing atomic Fedora installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/omegasquad82/bazzite-stable-customized
-  ```
-  or
-  ```
   sudo bootc switch ghcr.io/omegasquad82/bazzite-stable-customized
   ```
 - Reboot to complete the rebase:
@@ -24,10 +20,6 @@ To rebase an existing atomic Fedora installation to the latest build:
   systemctl reboot
   ```
 - Then rebase to the signed image, like so:
-  ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/omegasquad82/bazzite-stable-customized
-  ```
-  or
   ```
   sudo bootc switch --enforce-container-sigpolicy ghcr.io/omegasquad82/bazzite-stable-customized
   ```
