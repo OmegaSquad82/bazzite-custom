@@ -3,7 +3,7 @@
 name: bazzite-stable-customized
 description: My personal flavor of Bazzite
 base-image: ghcr.io/ublue-os/bazzite
-image-version: stable
+image-version: 42-stable
 
 modules:
   - type: files
