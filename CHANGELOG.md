@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.6](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.3.5...v1.3.6) (2025-10-16)
+
+
+### Bug Fixes
+
+* Fedora 42 ([a97372e](https://github.com/OmegaSquad82/bazzite-custom/commit/a97372e959330930c2016533d24338fd5d881ca3))
+
 ## [1.3.5](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.3.4...v1.3.5) (2025-10-14)
 
 
