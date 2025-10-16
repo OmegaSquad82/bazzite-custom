@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.3.6...v1.4.0) (2025-10-16)
+
+
+### Features
+
+* add Nextcloud and Thunderbird ([ab9eb4f](https://github.com/OmegaSquad82/bazzite-custom/commit/ab9eb4ff82e6b268be6aa55a3476df8241ca29c4))
+
+
+### Bug Fixes
+
+* update vm settings to value between arch wiki and maxperfwiz ([106adf1](https://github.com/OmegaSquad82/bazzite-custom/commit/106adf1eab2977a8535de3b4a009eb5c116677b5))
+
 ## [1.3.6](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.3.5...v1.3.6) (2025-10-16)
 
 
