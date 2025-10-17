@@ -20,6 +20,7 @@ modules:
         - cdrskin
         - clatd
         - ddrescue
+        - fail2ban
         - git
         - htop
         - k3b
