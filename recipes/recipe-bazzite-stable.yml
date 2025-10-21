@@ -61,6 +61,7 @@ modules:
           - com.github.tchx84.Flatseal
           - com.logseq.Logseq
           - com.ranfdev.DistroShelf
+          - com.usebottles.bottles
           - com.vscodium.codium
           - com.vysp3r.ProtonPlus
           - org.fedoraproject.MediaWriter
