@@ -6,11 +6,6 @@ base-image: ghcr.io/ublue-os/bazzite
 image-version: 42-stable
 
 modules:
-  - type: files
-    files:
-      - source: system
-        destination: /
-
   - type: dnf
     repos:
       copr:
@@ -36,6 +31,20 @@ modules:
         - rocm-clinfo
         - rocm-smi
         - tailscale
+
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - Hack
+        - Terminus
+
+  - type: chezmoi
+    repository: "https://github.com/OmegaSquad82/dotfiles"
+
+  - type: files
+    files:
+      - source: system
+        destination: /
 
   - type: default-flatpaks
     configurations:
@@ -83,15 +92,6 @@ modules:
           - org.keepassxc.KeePassXC
           - org.libreoffice.LibreOffice
           - org.torproject.torbrowser-launcher
-
-  - type: fonts
-    fonts:
-      nerd-fonts:
-        - Hack
-        - Terminus
-
-  - type: chezmoi
-    repository: "https://github.com/OmegaSquad82/dotfiles"
 
   - type: systemd
     system:
