@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.5.0](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.4.0...v1.5.0) (2025-10-24)
+
+
+### Features
+
+* add Bottles Flatpak from Flatpak Verified to System installation ([01c6138](https://github.com/OmegaSquad82/bazzite-custom/commit/01c613853ad730a83e4ab097d609ecbcdb06e844))
+* add nts config for chrony ([975d0b8](https://github.com/OmegaSquad82/bazzite-custom/commit/975d0b8a7102d23ec63c2545a14804deec22eda2))
+* update sshd hardening ([d2e99e5](https://github.com/OmegaSquad82/bazzite-custom/commit/d2e99e524929720de45b8a688a661cb0ebb4c699))
+
+
+### Bug Fixes
+
+* add more recompression levels ([be9c7fb](https://github.com/OmegaSquad82/bazzite-custom/commit/be9c7fb0df58576cabe88fe6dc1ed815e6710f7a))
+* Arch wiki says no. ([a67ed88](https://github.com/OmegaSquad82/bazzite-custom/commit/a67ed886c337bd523b8e980773ee6aab97af4600))
+
 ## [1.4.0](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.3.6...v1.4.0) (2025-10-16)
 
 
