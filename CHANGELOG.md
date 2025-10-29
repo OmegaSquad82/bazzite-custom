@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.5.0...v1.5.1) (2025-10-29)
+
+
+### Bug Fixes
+
+* hint why login to WIFIonICE failed ([7a4694e](https://github.com/OmegaSquad82/bazzite-custom/commit/7a4694e83f5899b40d775033f3ffd45fa477845c))
+
 ## [1.5.0](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.4.0...v1.5.0) (2025-10-24)
 
 
