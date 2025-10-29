@@ -23,7 +23,7 @@ repos:
     rev: v0.11.0.1
     hooks:
       - id: shellcheck
-  - repo: https://github.com/openstack/bashate
-    rev: 2.1.1
+  - repo: https://github.com/scop/pre-commit-shfmt
+    rev: v3.12.0-2
     hooks:
-      - id: bashate
+      - id: shfmt
