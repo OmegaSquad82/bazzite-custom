@@ -3,7 +3,7 @@
 name: bazzite-stable-customized
 description: My personal flavor of Bazzite
 base-image: ghcr.io/ublue-os/bazzite
-image-version: 42-stable
+image-version: stable-43
 
 modules:
   - type: dnf
