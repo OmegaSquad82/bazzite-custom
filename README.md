@@ -4,10 +4,19 @@ See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup i
 
 This custom image derives from [Bazzite](https://bazzite.gg/ "Bazzite - The next generation of Linux gaming") and is intended for everyday usage.
 
+## Customizations
+
+- Hardening for the OpenSSH daemon to only allow public key authentication and users in group `wheel`.
+- Tweaks to the virtual memory management subsystem to allow more aggressive swapping out of pages.
+- A zram swap configuration with up to 16 GiB size using `LZ4` and recompression with `Zstd`.
+- A Network Time Security configuration for chrony to use a selection of European servers.
+- A selection of few packages is installed during image build for convenience.
+- Most Flatpaks I'm using are marked for installation during runtime.
+- An [adapted](https://gist.github.com/OmegaSquad82/8dbea960956b03bb86f2f773527daf31) login script for German Rail Intercity (Express) trains.
+
 ## Installation
 
-> [!WARNING]
-> [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
+> [!WARNING] [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
 
 To rebase an existing atomic Fedora installation to the latest build:
 

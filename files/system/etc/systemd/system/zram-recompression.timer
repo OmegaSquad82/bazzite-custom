@@ -1,5 +1,5 @@
 [Unit]
-Description=Control timing to recompress ZRAM pages
+Description=Control timing to recompress zram pages
 
 [Timer]
 OnBootSec=3min
