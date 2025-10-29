@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-# https://gist.github.com/kescherCode/356028204849dde898481431e6a0be34
+# Adapted from https://gist.github.com/kescherCode/356028204849dde898481431e6a0be34
+## Place in: /{etc,usr/lib}/NetworkManager/dispatcher.d/pre-up.d/
+## Test with: `journalctl -xe --unit=NetworkManager-dispatcher`
 
 # This is free and unencumbered software released into the public domain.
 #
@@ -17,7 +19,7 @@
 
 if [ "$CONNECTION_ID" = "WIFIonICE" ]; then
 	for ((i = 0; i < 5; i++)); do
-		if curl --fail 'https://login.wifionice.de/cna/logon' -X POST; then
+		if curl --fail --verbose 'https://login.wifionice.de/cna/logon' -X POST; then
 			break
 		fi
 	done
