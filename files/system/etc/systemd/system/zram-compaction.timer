@@ -1,5 +1,5 @@
 [Unit]
-Description=Control timing to defragment ZRAM memory
+Description=Control timing to defragment zram memory
 
 [Timer]
 OnBootSec=5min

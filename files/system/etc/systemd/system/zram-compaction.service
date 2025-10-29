@@ -1,5 +1,5 @@
 [Unit]
-Description=Defragment ZRAM memory
+Description=Defragment zram memory
 Documentation="https://docs.kernel.org/admin-guide/blockdev/zram.html#stats"
 StopWhenUnneeded=yes
 
