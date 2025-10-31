@@ -105,6 +105,6 @@ modules:
   - type: kargs
     arch: x86_64
     kargs:
-      - rootflags=subvol=root,compress-force=zstd:3,discard=async,lazytime,noatime,space_cache=v2,x-systemd.device-timeout=0
+      - rootflags=subvol=root,compress-force=zstd:3,discard=async,lazytime,noatime,space_cache=v2,x-systemd.device-timeout=0 kvm.ignore_msrs=1 kvm.report_ignored_msrs=0
 
   - type: signing
