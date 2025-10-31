@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.2](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.5.1...v1.5.2) (2025-10-31)
+
+
+### Bug Fixes
+
+* adding virtualization kargs so you don't have to ([65181cd](https://github.com/OmegaSquad82/bazzite-custom/commit/65181cd1f8014b7178378f1c6454a069357be65a))
+* adding virtualization kargs so you don't have to ([8165c8b](https://github.com/OmegaSquad82/bazzite-custom/commit/8165c8beb9337b51f0ef90d39df65b61ddebfd37))
+* allow applications to ask for ssh passphrases ([182fe89](https://github.com/OmegaSquad82/bazzite-custom/commit/182fe89e888fd7f53f210d9c8e42fddc6ad07289))
+* allow applications to ask for ssh passphrases ([581d17c](https://github.com/OmegaSquad82/bazzite-custom/commit/581d17cab08fc555f196a746548b2febc4e21e80))
+* drop VS Codium flatpak in favor of homebrew cask ([bf43ba0](https://github.com/OmegaSquad82/bazzite-custom/commit/bf43ba01adab411704103d5a726a208a540d79c6))
+* drop VS Codium flatpak in favor of homebrew cask ([28466b3](https://github.com/OmegaSquad82/bazzite-custom/commit/28466b3e6944f67e4b6a6b8e445d798b4cc57104))
+
 ## [1.5.1](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.5.0...v1.5.1) (2025-10-29)
 
 
