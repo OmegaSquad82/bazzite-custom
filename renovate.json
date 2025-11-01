@@ -15,7 +15,8 @@
       ],
       "matchStrings": [
         "/(?<currentVersion>.*?)/Libation.(?<currentValue>.*?)-linux"
-      ]
+      ],
+      "autoReplaceStringTemplate": "/{{{newVersion}}}/Libation.{{{newValue}}}-linux"
     }
   ],
   "packageRules": [
