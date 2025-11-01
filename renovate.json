@@ -14,8 +14,24 @@
         "recipes/recipe-*.yml"
       ],
       "matchStrings": [
-        "(?<currentValue>.*?)"
+        "v(?<currentValue>.*?)",
+        "Libation.(?<currentValue>.*?)"
       ]
+    }
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "github-releases"
+      ],
+      "matchDepNames": [
+        "rmcrackan/Libation"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
     }
   ],
   "pre-commit": {
