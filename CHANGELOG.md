@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.3](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.5.2...v1.5.3) (2025-11-01)
+
+
+### Bug Fixes
+
+* fix Renovate config for Libation, it now successfully upgrades it by itself...
+
 ## [1.5.2](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.5.1...v1.5.2) (2025-10-31)
 
 
