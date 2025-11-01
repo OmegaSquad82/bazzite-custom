@@ -14,7 +14,8 @@
         "recipes/recipe-*.yml"
       ],
       "matchStrings": [
-        "/(?<currentVersion>.*?)/Libation.(?<currentValue>.*?)-linux"
+        "v(?<currentValue>.*?)",
+        "Libation.(?<currentValue>.*?)"
       ]
     }
   ],
