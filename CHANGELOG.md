@@ -5,14 +5,7 @@
 
 ### Bug Fixes
 
-* align matchStrings for Libation ([624dbfa](https://github.com/OmegaSquad82/bazzite-custom/commit/624dbfa0fa58391da07c9e82543f5ac3c9c93f9e))
-* offer autoReplaceStringTemplate for Libation ([b83ee4d](https://github.com/OmegaSquad82/bazzite-custom/commit/b83ee4d1ea6af8d6bce929aead5edbc81d339cef))
-* offer autoReplaceStringTemplate for Libation ([a1c75e3](https://github.com/OmegaSquad82/bazzite-custom/commit/a1c75e3d25fad5899872d44ad1e7b34770e6b888))
-* simpler renovate rules ([8731ff3](https://github.com/OmegaSquad82/bazzite-custom/commit/8731ff384d329ec0320f49020c348ecba2c979ea))
-* simpler renovate rules ([c2eb919](https://github.com/OmegaSquad82/bazzite-custom/commit/c2eb919c889deda20f17fa1965f884bd859cdc1a))
-* try to match only currentValue ([7997da9](https://github.com/OmegaSquad82/bazzite-custom/commit/7997da9f9bc21c09dafa2c25760fafdfd4daec45))
-* use single matchString for Libation ([170350c](https://github.com/OmegaSquad82/bazzite-custom/commit/170350c46a7f7cf3a64d1e0997e02c8226974096))
-* use single matchString for Libation ([ececd05](https://github.com/OmegaSquad82/bazzite-custom/commit/ececd057fa7dca22ae2cecc3ca149d06312ed46c))
+* fix Renovate config for Libation, it now successfully upgrades it by itself...
 
 ## [1.5.2](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.5.1...v1.5.2) (2025-10-31)
 
