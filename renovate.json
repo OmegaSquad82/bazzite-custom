@@ -14,9 +14,9 @@
         "recipes/recipe-*.yml"
       ],
       "matchStrings": [
-        "/v(?<currentValue>.*?)/Libation",
-        "/Libation.(?<currentValue>.*?)-"
-      ]
+        "download/(?<currentVersion>.*?)/Libation.(?<currentValue>.*?)-linux"
+      ],
+      "autoReplaceStringTemplate": "download/v{{{newValue}}}/Libation.{{{newValue}}}-linux"
     }
   ],
   "packageRules": [
