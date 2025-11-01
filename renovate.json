@@ -14,8 +14,8 @@
         "recipes/recipe-*.yml"
       ],
       "matchStrings": [
-        "v(?<currentValue>.*?)",
-        "Libation.(?<currentValue>.*?)"
+        "download/v(?<currentValue>.*?)",
+        "/Libation.(?<currentValue>.*?)"
       ]
     }
   ],
