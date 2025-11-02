@@ -25,19 +25,6 @@ modules:
         - openrgb
         - rmlint
         - synology-drive-noextra
-    remove:
-      packages:
-        - rocm-hip
-        - rocm-opencl
-        - rocm-clinfo
-        - rocm-smi
-        - tailscale
-
-  - type: fonts
-    fonts:
-      nerd-fonts:
-        - Hack
-        - Terminus
 
   - type: chezmoi
     repository: "https://github.com/OmegaSquad82/dotfiles"
@@ -101,6 +88,15 @@ modules:
         - sshd.service
         - zram-compaction.timer
         - zram-recompression.timer
+
+  - type: dnf
+    remove:
+      packages:
+        - rocm-hip
+        - rocm-opencl
+        - rocm-clinfo
+        - rocm-smi
+        - tailscale
 
   - type: kargs
     arch: x86_64
