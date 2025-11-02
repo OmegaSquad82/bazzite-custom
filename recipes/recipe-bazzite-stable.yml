@@ -7,9 +7,6 @@ image-version: testing-43
 
 modules:
   - type: dnf
-    repos:
-      copr:
-        - emixampp/synology-drive
     install:
       packages:
         - cdrskin
@@ -24,10 +21,9 @@ modules:
         - micro
         - openrgb
         - rmlint
-        - synology-drive-noextra
 
   - type: chezmoi
-    repository: "https://github.com/OmegaSquad82/dotfiles"
+    repository: https://github.com/OmegaSquad82/dotfiles
 
   - type: files
     files:
@@ -43,6 +39,7 @@ modules:
         install: # unverified flatpaks go here to easily tell the difference
           - com.calibre_ebook.calibre
           - com.nextcloud.desktopclient.nextcloud
+          - com.synology.SynologyDrive
           - io.github.pwr_solaar.solaar
           - org.jitsi.jitsi-meet
           - org.signal.Signal
