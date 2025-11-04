@@ -6,6 +6,10 @@ base-image: ghcr.io/ublue-os/bazzite
 image-version: stable-43
 
 modules:
+  - type: script
+    snippets:
+      - "echo fs.inotify.max_user_instances=524288 | tee -a /etc/sysctl.conf" # https://github.com/rmcrackan/Libation/commit/824f65baae146347bf8019c5ccaac2ac7e6b2788#diff-baa268e4cdad1654bdc387ef62a711fe49e9fe6fce67e79d34780938ecd43997R107
+
   - type: dnf
     install:
       packages:
@@ -15,7 +19,7 @@ modules:
         - git-credential-libsecret
         - htop
         - k3b
-        # - https://github.com/rmcrackan/Libation/releases/download/v12.6.0/Libation.12.6.0-linux-chardonnay-amd64.rpm
+        - https://github.com/rmcrackan/Libation/releases/download/v12.6.0/Libation.12.6.0-linux-chardonnay-amd64.rpm
         - lziprecover
         - micro
         - openrgb
