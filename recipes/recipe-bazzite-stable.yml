@@ -12,15 +12,21 @@ modules:
         - cdrskin
         - clatd
         - ddrescue
-        - exfatprogs
         - git-credential-libsecret
         - htop
         - k3b
-        - https://github.com/rmcrackan/Libation/releases/download/v12.6.0/Libation.12.6.0-linux-chardonnay-amd64.rpm
+        # - https://github.com/rmcrackan/Libation/releases/download/v12.6.0/Libation.12.6.0-linux-chardonnay-amd64.rpm
         - lziprecover
         - micro
         - openrgb
         - rmlint
+    remove:
+      packages:
+        - rocm-clinfo
+        - rocm-hip
+        - rocm-opencl
+        - rocm-smi
+        - tailscale
 
   - type: chezmoi
     repository: https://github.com/OmegaSquad82/dotfiles
@@ -85,15 +91,6 @@ modules:
         - sshd.service
         - zram-compaction.timer
         - zram-recompression.timer
-
-  - type: dnf
-    remove:
-      packages:
-        - rocm-hip
-        - rocm-opencl
-        - rocm-clinfo
-        - rocm-smi
-        - tailscale
 
   - type: kargs
     arch: x86_64
