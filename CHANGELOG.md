@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.6.0](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.5.3...v1.6.0) (2025-11-04)
+
+
+### Features
+
+* Migrate to Bazzite 43 ([6111c79](https://github.com/OmegaSquad82/bazzite-custom/commit/6111c793da638024961c4525acff8835bb69a1f5))
+
+
+### Bug Fixes
+
+* it builds without Libation ([e1f7649](https://github.com/OmegaSquad82/bazzite-custom/commit/e1f7649fa6c4e7d9f8eda8d7a4e6fcc591138738))
+* Libation setup ([dd98606](https://github.com/OmegaSquad82/bazzite-custom/commit/dd98606536ae5349087f1e64f8ed45b3d4e23eb8))
+
 ## [1.5.3](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.5.2...v1.5.3) (2025-11-01)
 
 
