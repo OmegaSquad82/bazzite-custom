@@ -3,16 +3,19 @@
 name: bazzite-stable-customized
 description: My personal flavor of Bazzite
 base-image: ghcr.io/ublue-os/bazzite
-image-version: 42-stable
+image-version: stable-43
 
 modules:
+  - type: script
+    snippets:
+      - "echo fs.inotify.max_user_instances=524288 | tee -a /etc/sysctl.conf" # https://github.com/rmcrackan/Libation/commit/824f65baae146347bf8019c5ccaac2ac7e6b2788#diff-baa268e4cdad1654bdc387ef62a711fe49e9fe6fce67e79d34780938ecd43997R107
+
   - type: dnf
     install:
       packages:
         - cdrskin
         - clatd
         - ddrescue
-        - exfatprogs
         - git-credential-libsecret
         - htop
         - k3b
@@ -21,6 +24,13 @@ modules:
         - micro
         - openrgb
         - rmlint
+    remove:
+      packages:
+        - rocm-clinfo
+        - rocm-hip
+        - rocm-opencl
+        - rocm-smi
+        - tailscale
 
   - type: chezmoi
     repository: https://github.com/OmegaSquad82/dotfiles
@@ -85,15 +95,6 @@ modules:
         - sshd.service
         - zram-compaction.timer
         - zram-recompression.timer
-
-  - type: dnf
-    remove:
-      packages:
-        - rocm-hip
-        - rocm-opencl
-        - rocm-clinfo
-        - rocm-smi
-        - tailscale
 
   - type: kargs
     arch: x86_64
