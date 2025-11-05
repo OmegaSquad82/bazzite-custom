@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.6.1](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.6.0...v1.6.1) (2025-11-05)
+
+
+### Bug Fixes
+
+* drop incremental zstd levels for zram in favor of lz4hc and all default levels ([58ab6c2](https://github.com/OmegaSquad82/bazzite-custom/commit/58ab6c205231bc10451718a6edb8f6c69e36e4d0))
+* duplicate runtimes for user and system flatpaks ([ede874d](https://github.com/OmegaSquad82/bazzite-custom/commit/ede874d4b4376df41beb9c335becbd23c5d834a7))
+* duplicate runtimes for user and system flatpaks ([320c0cf](https://github.com/OmegaSquad82/bazzite-custom/commit/320c0cfc82a9eaa90a135e22a7395bfbda343399))
+
 ## [1.6.0](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.5.3...v1.6.0) (2025-11-04)
 
 
