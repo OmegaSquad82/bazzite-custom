@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.2](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.6.1...v1.6.2) (2025-11-05)
+
+
+### Bug Fixes
+
+* let only a single zstd level remain for recompression ([68ddf9f](https://github.com/OmegaSquad82/bazzite-custom/commit/68ddf9f658a1616fd3360b517fc413828d9a7476))
+* let only a single zstd level remain for recompression ([2215c26](https://github.com/OmegaSquad82/bazzite-custom/commit/2215c2634c51e91ca5901ff0f641b9d59d8fccb3))
+
 ## [1.6.1](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.6.0...v1.6.1) (2025-11-05)
 
 
