@@ -42,11 +42,11 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: false
-        scope: user
+      - scope: system
         repo:
-          title: Flathub (user)
-        install: # unverified flatpaks go here to easily tell the difference
+          title: Flathub (system)
+        install:
+          # unverified
           - com.calibre_ebook.calibre
           - com.nextcloud.desktopclient.nextcloud
           - com.synology.SynologyDrive
@@ -54,11 +54,7 @@ modules:
           - org.jitsi.jitsi-meet
           - org.signal.Signal
           - org.videolan.VLC
-      - notify: false
-        scope: system
-        repo:
-          title: Flathub (system)
-        install: # system flatpaks we want all users to have and not remove
+          # verified
           - com.daniel15.wcc
           - com.discordapp.Discord
           - com.github.Matoking.protontricks
