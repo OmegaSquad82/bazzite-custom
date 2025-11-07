@@ -10,7 +10,7 @@ This custom image derives from [Bazzite](https://bazzite.gg/ "Bazzite - The next
 - Tweaks to the virtual memory management subsystem to allow more aggressive swapping of pages.
 - A zram swap configuration with up to 16 GiB size using `LZ4` and recompression with `Zstd`.
 - A Network Time Security configuration for chrony to use a selection of European servers.
-- A selection of few packages is installed during image build for convenience.
+- A selection of packages incl. [Libation](https://getlibation.com/) is installed during build for convenience.
 - Most Flatpaks I'm using are marked for installation during runtime.
 - An [adapted](https://gist.github.com/OmegaSquad82/8dbea960956b03bb86f2f773527daf31) login script for German Rail Intercity (Express) trains.
 
