@@ -7,7 +7,7 @@ This custom image derives from [Bazzite](https://bazzite.gg/ "Bazzite - The next
 ## Customizations
 
 - Hardening for the OpenSSH daemon to only allow public key authentication and users in group `wheel`.
-- Tweaks to the virtual memory management subsystem to allow more aggressive swapping of pages.
+- Tweaks to the virtual memory management subsystem for more aggressive swapping of pages.
 - A zram swap configuration with up to 16 GiB size using `LZ4` and recompression with `Zstd`.
 - A Network Time Security configuration for chrony to use a selection of European servers.
 - A selection of packages incl. [Libation](https://getlibation.com/) is installed during build for convenience.
