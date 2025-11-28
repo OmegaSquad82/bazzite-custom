@@ -60,8 +60,8 @@ jobs:
           # it does not do with zstd:chunked, yet!
           build_opts: --compression-format zstd
 
-          # use hhd-dev/rechunk to group layers
-          rechunk: "${{ env.DO_RECHUNK }}"
+          # use rpm-ostree compose build-chunked-oci
+          build_chunked_oci: "${{ env.DO_RECHUNK }}"
 
           # in case of registry failure
           retry_push_count: 3
