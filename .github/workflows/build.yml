@@ -41,7 +41,7 @@ jobs:
           # overprovision-lvm: true
           btrfs-compression: true
 
-      - name: Run hhd-dev/rechunk?
+      - name: Run a rechunk?
         if: github.ref_name == github.event.repository.default_branch || github.ref_name == 'rechunk'
         run: echo 'DO_RECHUNK=true' >"$GITHUB_ENV"
 
