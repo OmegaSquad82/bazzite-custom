@@ -19,7 +19,7 @@ modules:
         - git-credential-libsecret
         - htop
         - k3b
-        - https://github.com/rmcrackan/Libation/releases/download/v12.7.4/Libation.12.7.4-linux-chardonnay-amd64.rpm
+        - https://github.com/rmcrackan/Libation/releases/download/v12.7.5/Libation.12.7.5-linux-chardonnay-amd64.rpm
         - lziprecover
         - micro
         - openrgb
