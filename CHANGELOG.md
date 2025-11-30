@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.7.0](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.6.2...v1.7.0) (2025-11-30)
+
+
+### Features
+
+* use rpm-ostree compose build_chunked_oci ([f96d8ed](https://github.com/OmegaSquad82/bazzite-custom/commit/f96d8eda575f18e9979976e7af0abb621fc27b76))
+* use rpm-ostree compose build_chunked_oci ([a1b5f88](https://github.com/OmegaSquad82/bazzite-custom/commit/a1b5f882fa8660675e4a4323c2b3d157ece65a9d))
+
+
+### Bug Fixes
+
+* return to hdd-dev/rechunk algorithm ([ce8498a](https://github.com/OmegaSquad82/bazzite-custom/commit/ce8498a4ca57130faca9b426e0f337f7069e4659))
+
 ## [1.6.2](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.6.1...v1.6.2) (2025-11-05)
 
 
