@@ -43,8 +43,6 @@ modules:
   - type: default-flatpaks
     configurations:
       - scope: system
-        repo:
-          title: Flathub (system)
         install:
           # unverified
           - com.calibre_ebook.calibre
