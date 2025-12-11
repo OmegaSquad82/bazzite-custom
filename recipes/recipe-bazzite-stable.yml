@@ -24,6 +24,7 @@ modules:
         - micro
         - openrgb
         - rmlint
+        - tlp
     remove:
       packages:
         - rocm-clinfo
