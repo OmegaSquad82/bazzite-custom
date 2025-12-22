@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.1](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.7.0...v1.7.1) (2025-12-22)
+
+
+### Bug Fixes
+
+* issue installing Flatpaks when rebasing to custom Bazzite ([056224d](https://github.com/OmegaSquad82/bazzite-custom/commit/056224d667eaaf23ce0f951d3fc8dc1d215b6bb1))
+* issue installing Flatpaks when rebasing to custom Bazzite ([9a25368](https://github.com/OmegaSquad82/bazzite-custom/commit/9a2536869b504416e330ffcfcf6f5db1f2ca2f8f))
+
 ## [1.7.0](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.6.2...v1.7.0) (2025-11-30)
 
 
