@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.2](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.7.1...v1.7.2) (2026-02-27)
+
+
+### Bug Fixes
+
+* Add global recompression parameter for huge pages ([e6f4ddc](https://github.com/OmegaSquad82/bazzite-custom/commit/e6f4ddc5c9c750d1a69d7c62a51f9fccbfd67376))
+
 ## [1.7.1](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.7.0...v1.7.1) (2025-12-22)
 
 
