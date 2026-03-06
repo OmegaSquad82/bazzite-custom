@@ -66,7 +66,8 @@ jobs:
           build_chunked_oci: false
 
           # use hhd-dev/rechunk
-          rechunk: "${{ env.DO_RECHUNK }}"
+          # rechunk: "${{ env.DO_RECHUNK }}"
+          rechunk: false
 
           # in case of registry failure
           retry_push_count: 3
