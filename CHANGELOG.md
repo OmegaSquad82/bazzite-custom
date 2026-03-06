@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.8.0](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.7.1...v1.8.0) (2026-03-06)
+
+
+### Features
+
+* use rpm-ostree compose build-chunked-oci ([69bfe3e](https://github.com/OmegaSquad82/bazzite-custom/commit/69bfe3ed50be1bfc3fd1fe2f9c9a517f1035ecda))
+* use rpm-ostree compose build-chunked-oci ([cae74e7](https://github.com/OmegaSquad82/bazzite-custom/commit/cae74e7e49d0a48cc1d909893e9d68caff628a7a))
+
+
+### Bug Fixes
+
+* Add global recompression parameter for huge pages ([e6f4ddc](https://github.com/OmegaSquad82/bazzite-custom/commit/e6f4ddc5c9c750d1a69d7c62a51f9fccbfd67376))
+* Disable chunked OCI build and rechunk options ([ddf6a2d](https://github.com/OmegaSquad82/bazzite-custom/commit/ddf6a2d2499679a2c909e3c5a05b2f76bc895606))
+* Disable rechunking in build workflow ([219004f](https://github.com/OmegaSquad82/bazzite-custom/commit/219004f45ec2ba40ff5d83788854d10a686b4f98))
+* Disable rechunking in build workflow ([61fb04a](https://github.com/OmegaSquad82/bazzite-custom/commit/61fb04ab46a32e754d825761c21bb87808a6fd06))
+* Modify build options in build.yml ([c097667](https://github.com/OmegaSquad82/bazzite-custom/commit/c097667140ad727849430c7ef455b1000dc79043))
+* Modify build options in build.yml ([8c25165](https://github.com/OmegaSquad82/bazzite-custom/commit/8c251650a5e6835c0a5032ca5ec4c11aa4c743fb))
+* Modify build.yml to include DO_RECHUNK variable ([d4fbbe8](https://github.com/OmegaSquad82/bazzite-custom/commit/d4fbbe80e4a719f01dc8a660cbb4613cf4a1a3e5))
+* Modify build.yml to include DO_RECHUNK variable ([7d120a0](https://github.com/OmegaSquad82/bazzite-custom/commit/7d120a03f74c0e74f2bfa5255ed8eaa1ea5ae3f8))
+
 ## [1.7.1](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.7.0...v1.7.1) (2025-12-22)
 
 
