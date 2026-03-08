@@ -26,6 +26,7 @@ modules:
         - rmlint
     remove:
       packages:
+        - ptyxis
         - rocm-clinfo
         - rocm-hip
         - rocm-opencl
