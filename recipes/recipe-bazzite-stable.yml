@@ -23,15 +23,13 @@ modules:
         - lziprecover
         - micro
         - openrgb
-        - rmlint
-    remove:
-      packages:
-        - ptyxis
-        - rocm-clinfo
-        - rocm-hip
-        - rocm-opencl
-        - rocm-smi
-        - tailscale
+#    remove:
+#      packages:
+#        - rocm-clinfo
+#        - rocm-hip
+#        - rocm-opencl
+#        - rocm-smi
+#        - tailscale
 
   - type: chezmoi
     repository: https://github.com/OmegaSquad82/dotfiles
@@ -90,6 +88,8 @@ modules:
         - sshd.service
         - zram-compaction.timer
         - zram-recompression.timer
+      disabled:
+        - tailscale.service
 
   - type: kargs
     arch: x86_64
