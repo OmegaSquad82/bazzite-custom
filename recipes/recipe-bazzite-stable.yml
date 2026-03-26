@@ -23,10 +23,8 @@ modules:
         - lziprecover
         - micro
         - openrgb
-        - rmlint
 #    remove:
 #      packages:
-#        - ptyxis
 #        - rocm-clinfo
 #        - rocm-hip
 #        - rocm-opencl
