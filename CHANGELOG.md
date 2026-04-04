@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.9.0](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.8.0...v1.9.0) (2026-04-04)
+
+
+### Features
+
+* Add ptyxis to remove list in recipe-bazzite-stable ([1f670a3](https://github.com/OmegaSquad82/bazzite-custom/commit/1f670a35a959285b0bdc4f5e25cdba3c14c5ff77))
+
+
+### Bug Fixes
+
+* Comment out package removal and disable tailscale service ([a3db5ac](https://github.com/OmegaSquad82/bazzite-custom/commit/a3db5ac6b0953dee504e40d94170880d7822f834))
+
 ## [1.8.0](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.7.1...v1.8.0) (2026-03-06)
 
 
