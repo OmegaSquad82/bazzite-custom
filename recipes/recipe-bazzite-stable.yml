@@ -13,6 +13,7 @@ modules:
   - type: dnf
     install:
       packages:
+        - atop
         - cdrskin
         - clatd
         - ddrescue
@@ -23,13 +24,6 @@ modules:
         - lziprecover
         - micro
         - openrgb
-#    remove:
-#      packages:
-#        - rocm-clinfo
-#        - rocm-hip
-#        - rocm-opencl
-#        - rocm-smi
-#        - tailscale
 
   - type: chezmoi
     repository: https://github.com/OmegaSquad82/dotfiles
