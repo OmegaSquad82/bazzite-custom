@@ -3,7 +3,7 @@
 name: bazzite-stable-customized
 description: My personal flavor of Bazzite
 base-image: ghcr.io/ublue-os/bazzite
-image-version: stable-43
+image-version: stable-44
 
 modules:
   - type: script
@@ -82,8 +82,6 @@ modules:
         - sshd.service
         - zram-compaction.timer
         - zram-recompression.timer
-      disabled:
-        - tailscale.service
 
   - type: kargs
     arch: x86_64
