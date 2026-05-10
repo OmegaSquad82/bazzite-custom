@@ -23,6 +23,7 @@ modules:
         - https://github.com/rmcrackan/Libation/releases/download/v13.4.1/Libation.13.4.1-linux-chardonnay-amd64.rpm
         - lziprecover
         - micro
+        - netcat
         - openrgb
 
   - type: chezmoi
