@@ -48,7 +48,6 @@ modules:
           - org.videolan.VLC
           # verified
           - com.daniel15.wcc
-          - com.discordapp.Discord
           - com.github.Matoking.protontricks
           - com.github.tchx84.Flatseal
           - com.logseq.Logseq
