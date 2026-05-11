@@ -1,8 +1,10 @@
-# bazzite-custom &nbsp; [![bluebuild build badge](https://github.com/omegasquad82/bazzite-custom/actions/workflows/build.yml/badge.svg)](https://github.com/omegasquad82/bazzite-custom/actions/workflows/build.yml)
+# bazzite-custom &nbsp; [![Build bazzite-custom](https://github.com/OmegaSquad82/bazzite-custom/actions/workflows/build.yml/badge.svg)](https://github.com/OmegaSquad82/bazzite-custom/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+## ublue-os/bazzite &nbsp; [![Build Bazzite](https://github.com/ublue-os/bazzite/actions/workflows/build.yml/badge.svg)](https://github.com/ublue-os/bazzite/actions/workflows/build.yml)
 
-This custom image derives from [Bazzite](https://bazzite.gg/ "Bazzite - The next generation of Linux gaming") and is intended for everyday usage.
+See the [BlueBuild docs](https://blue-build.org/how-to/setup/ "How to set up a new repository | The easiest way to build your own desktop Linux images.") for quick setup instructions for setting up your own repository based on this template.
+
+This custom image derives from [Bazzite](https://bazzite.gg/ "Bazzite - The next generation of Linux gaming") and is intended for everyday usage. Also see their GitHub Repository at [ublue-os/bazzite](https://github.bazzite.gg/ "Bazzite makes gaming and everyday use smoother and simpler across desktop PCs, handhelds, tablets, and home theater PCs.")
 
 ## Customizations
 
