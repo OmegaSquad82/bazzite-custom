@@ -2,8 +2,8 @@ name: bluebuild
 on:
   schedule:
     - cron:
-        "10 06 * * *" # build at 06:10 UTC every day
-        # (30 minutes after last ublue images start building)
+        "25 05 * * *" # build daily at 05:25 UTC
+        # (Monday: 45min after trigger of ublue-os/bazzite image build)
   push:
     paths-ignore: # don't rebuild if only documentation has changed
       - "**.md"
@@ -62,11 +62,13 @@ jobs:
           # it does not do with zstd:chunked, yet!
           build_opts: --compression-format zstd
 
+          # use coreos/chunkah
+          chunkah: "${{ env.DO_RECHUNK }}"
+
           # use rpm-ostree compose build-chunked-oci
           build_chunked_oci: false
 
           # use hhd-dev/rechunk
-          # rechunk: "${{ env.DO_RECHUNK }}"
           rechunk: false
 
           # in case of registry failure
