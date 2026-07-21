@@ -62,8 +62,11 @@ jobs:
           # it does not do with zstd:chunked, yet!
           build_opts: --compression-format zstd
 
+          # use chunkah
+          chunkah: true
+
           # use rpm-ostree compose build-chunked-oci
-          build_chunked_oci: true
+          build_chunked_oci: false
 
           # use hhd-dev/rechunk
           # rechunk: "${{ env.DO_RECHUNK }}"
