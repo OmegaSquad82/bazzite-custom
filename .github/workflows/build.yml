@@ -66,10 +66,7 @@ jobs:
           chunkah: false
 
           # use rpm-ostree compose build-chunked-oci
-          build_chunked_oci: false
-
-          # use hhd-dev/rechunk
-          rechunk: "${{ env.DO_RECHUNK }}"
+          build_chunked_oci: "${{ env.DO_RECHUNK }}"
 
           # in case of registry failure
           retry_push_count: 3
