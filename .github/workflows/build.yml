@@ -63,13 +63,13 @@ jobs:
           build_opts: --compression-format zstd
 
           # use coreos/chunkah
-          chunkah: "${{ env.DO_RECHUNK }}"
+          chunkah: false
 
           # use rpm-ostree compose build-chunked-oci
           build_chunked_oci: false
 
           # use hhd-dev/rechunk
-          rechunk: false
+          rechunk: "${{ env.DO_RECHUNK }}"
 
           # in case of registry failure
           retry_push_count: 3
