@@ -40,7 +40,6 @@ modules:
         install:
           # unverified
           - com.calibre_ebook.calibre
-          - com.nextcloud.desktopclient.nextcloud
           - com.synology.SynologyDrive
           - io.github.pwr_solaar.solaar
           - org.jitsi.jitsi-meet
@@ -48,9 +47,8 @@ modules:
           - org.videolan.VLC
           # verified
           - com.daniel15.wcc
-          - com.github.Matoking.protontricks
           - com.github.tchx84.Flatseal
-          - com.logseq.Logseq
+          - com.nextcloud.desktopclient.nextcloud
           - com.ranfdev.DistroShelf
           - com.usebottles.bottles
           - com.vysp3r.ProtonPlus
@@ -60,12 +58,11 @@ modules:
           - io.github.nroduit.Weasis
           - io.gitlab.librewolf-community
           - io.github.pieterdd.StretchBreak
-          - io.github.pol_rivero.github-desktop-plus
           - io.github.ungoogled_software.ungoogled_chromium
           - io.podman_desktop.PodmanDesktop
           - md.obsidian.Obsidian
           - net.ptilouk.superfluous
-          - org.mozilla.Thunderbird
+          - org.mozilla.thunderbird_esr
           - org.kde.gwenview
           - org.kde.haruna
           - org.kde.kcalc
