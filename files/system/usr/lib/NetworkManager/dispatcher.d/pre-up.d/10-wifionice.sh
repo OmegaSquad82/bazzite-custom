@@ -33,7 +33,7 @@ esac
 if [[ -n "${parms[@]}" ]]; then
 	for ((i = 0; i < 5; i++)); do
 		echo "$ curl --fail --verbose -X POST ${parms[@]}"
-		if curl --fail --verbose -X POST "${parms[@]}"; then
+		if curl --fail --verbose -X POST ${parms[@]}; then
 			break
 		fi
 	done
