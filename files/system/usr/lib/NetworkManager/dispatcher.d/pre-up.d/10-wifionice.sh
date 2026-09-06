@@ -17,9 +17,23 @@
 ## This NetworkManager dispatcher script automatically tries to log into ICE WiFi.
 ## Sometimes, the first few attempts fail.
 
-if [ "$CONNECTION_ID" = "WIFIonICE" ]; then
+case "$CONNECTION_ID" in
+  WIFIonICE)
+    url='https://login.wifionice.de/cna/logon'
+    ;;
+  WLAN@start)
+    url='https://start-unterelbe.on.icomera.com/cna/logon'
+	;;
+  *)
+    echo "nothing to do, exiting"
+	exit 0
+    ;;
+esac
+
+if [[ -n "${url:-}" ]]; then
 	for ((i = 0; i < 5; i++)); do
-		if curl --fail --verbose 'https://login.wifionice.de/cna/logon' -X POST; then
+		echo "$ curl --fail --verbose -X POST '$url'"
+		if curl --fail --verbose -X POST "$url"; then
 			break
 		fi
 	done
