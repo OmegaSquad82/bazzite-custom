@@ -25,7 +25,7 @@ case "$CONNECTION_ID" in
     parms=('-X POST' 'https://start-unterelbe.on.icomera.com/cna/logon')
 	;;
   *)
-    echo "nothing to do, exiting"
+    echo "nothing to do with ${CONNECTION_ID}, exiting"
 	exit 0
     ;;
 esac
