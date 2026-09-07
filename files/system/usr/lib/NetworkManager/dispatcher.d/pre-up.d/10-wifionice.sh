@@ -22,7 +22,7 @@ case "$CONNECTION_ID" in
     parms=('--data tncs=true' 'https://login.wifionice.de/auth_register_online')
     ;;
   WLAN@start)
-    parms=('https://start-unterelbe.on.icomera.com/cna/logon')
+    parms=('-X POST' 'https://start-unterelbe.on.icomera.com/cna/logon')
 	;;
   *)
     echo "nothing to do, exiting"
@@ -32,8 +32,8 @@ esac
 
 if [[ -n "${parms[@]}" ]]; then
 	for ((i = 0; i < 5; i++)); do
-		echo "$ curl --fail --verbose -X POST ${parms[@]}"
-		if curl --fail --verbose -X POST ${parms[@]}; then
+		echo "$ curl --fail --verbose ${parms[@]}"
+		if curl --fail --verbose ${parms[@]}; then
 			break
 		fi
 	done
