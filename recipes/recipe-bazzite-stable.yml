@@ -42,7 +42,6 @@ modules:
           - com.calibre_ebook.calibre
           - com.synology.SynologyDrive
           - io.github.pwr_solaar.solaar
-          - org.jitsi.jitsi-meet
           - org.signal.Signal
           - org.videolan.VLC
           # verified
@@ -55,13 +54,10 @@ modules:
           - org.fedoraproject.MediaWriter
           - info.beyondallreason.bar
           - io.github.flattool.Warehouse
-          - io.github.nroduit.Weasis
           - io.gitlab.librewolf-community
-          - io.github.pieterdd.StretchBreak
           - io.github.ungoogled_software.ungoogled_chromium
           - io.podman_desktop.PodmanDesktop
           - md.obsidian.Obsidian
-          - net.ptilouk.superfluous
           - org.mozilla.thunderbird_esr
           - org.kde.gwenview
           - org.kde.haruna
