@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.0.0 (2026-10-24)
+
+
+### Features
+
+* Add 'atop' package to recipe-bazzite-stable.yml ([f1441a3](https://github.com/OmegaSquad82/bazzite-custom/commit/f1441a31b7a495420333ba828d58a90f7b7a6e10))
+* Add ptyxis to remove list in recipe-bazzite-stable ([1f670a3](https://github.com/OmegaSquad82/bazzite-custom/commit/1f670a35a959285b0bdc4f5e25cdba3c14c5ff77))
+* use rpm-ostree compose build-chunked-oci ([69bfe3e](https://github.com/OmegaSquad82/bazzite-custom/commit/69bfe3ed50be1bfc3fd1fe2f9c9a517f1035ecda))
+* use rpm-ostree compose build-chunked-oci ([cae74e7](https://github.com/OmegaSquad82/bazzite-custom/commit/cae74e7e49d0a48cc1d909893e9d68caff628a7a))
+
+
+### Bug Fixes
+
+* Comment out package removal and disable tailscale service ([a3db5ac](https://github.com/OmegaSquad82/bazzite-custom/commit/a3db5ac6b0953dee504e40d94170880d7822f834))
+* Disable rechunking in build workflow ([219004f](https://github.com/OmegaSquad82/bazzite-custom/commit/219004f45ec2ba40ff5d83788854d10a686b4f98))
+* Disable rechunking in build workflow ([61fb04a](https://github.com/OmegaSquad82/bazzite-custom/commit/61fb04ab46a32e754d825761c21bb87808a6fd06))
+* Modify build options in build.yml ([c097667](https://github.com/OmegaSquad82/bazzite-custom/commit/c097667140ad727849430c7ef455b1000dc79043))
+* Modify build options in build.yml ([8c25165](https://github.com/OmegaSquad82/bazzite-custom/commit/8c251650a5e6835c0a5032ca5ec4c11aa4c743fb))
+
 ## [1.9.0](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.8.0...v1.9.0) (2026-04-10)
 
 
