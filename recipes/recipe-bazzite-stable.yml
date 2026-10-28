@@ -73,8 +73,6 @@ modules:
         - clatd.service
         - podman.service
         - sshd.service
-        - zram-compaction.timer
-        - zram-recompression.timer
 
   - type: kargs
     arch: x86_64
