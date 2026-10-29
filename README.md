@@ -9,10 +9,10 @@ This custom image derives from [Bazzite](https://bazzite.gg/ "Bazzite - The next
 ## Customizations
 
 - Hardening for the OpenSSH daemon to only allow public key authentication and users in group `wheel`.
-- Tweaks to the virtual memory management subsystem for more aggressive swapping of pages.
-- A zram swap configuration with up to 16 GiB size using `LZ4` and recompression with `Zstd`.
+- Tweaks to the virtual memory management subsystem for more aggressive swapping of pages to zswap.
+- A tiered swap configuration with a ZRAM disk using dense `Zstd` as backing store for LRU pages.
 - A Network Time Security configuration for chrony to use a selection of European servers.
-- A selection of packages incl. [Libation](https://getlibation.com/) is installed during build for convenience.
+- A selection of packages incl. [DrawIO Desktop](https://diagrams.net/), [Libation](https://getlibation.com/) is installed during build for convenience.
 - Most Flatpaks I'm using are marked for installation during runtime.
 - An [adapted](https://gist.github.com/OmegaSquad82/8dbea960956b03bb86f2f773527daf31) login script for German Rail Intercity (Express) trains.
 
