@@ -17,6 +17,18 @@
         "download/(?<currentVersion>.*?)/Libation.(?<currentValue>.*?)-linux"
       ],
       "autoReplaceStringTemplate": "download/v{{{newValue}}}/Libation.{{{newValue}}}-linux"
+    },
+    {
+      "customType": "regex",
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "jgraph/drawio-desktop",
+      "managerFilePatterns": [
+        "recipes/recipe-*.yml"
+      ],
+      "matchStrings": [
+        "download/(?<currentVersion>.*?)/drawio-x86_64.(?<currentValue>.*?)"
+      ],
+      "autoReplaceStringTemplate": "download/v{{{newValue}}}/drawio-x86_64.{{{newValue}}}"
     }
   ],
   "packageRules": [
@@ -25,9 +37,11 @@
         "github-releases"
       ],
       "matchDepNames": [
-        "rmcrackan/Libation"
+        "rmcrackan/Libation",
+        "jgraph/drawio-desktop"
       ],
       "matchUpdateTypes": [
+        "major",
         "minor",
         "patch"
       ],
