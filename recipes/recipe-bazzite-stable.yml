@@ -17,6 +17,7 @@ modules:
         - cdrskin
         - clatd
         - ddrescue
+        - https://github.com/jgraph/drawio-desktop/releases/download/v32.6.1/drawio-x86_64-32.6.1.rpm
         - git-credential-libsecret
         - htop
         - k3b
