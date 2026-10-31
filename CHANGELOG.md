@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2026-10-31)
+
+
+### Features
+
+* Add 'atop' package to recipe-bazzite-stable.yml ([f1441a3](https://github.com/OmegaSquad82/bazzite-custom/commit/f1441a31b7a495420333ba828d58a90f7b7a6e10))
+
 ## [1.9.0](https://github.com/OmegaSquad82/bazzite-custom/compare/v1.8.0...v1.9.0) (2026-04-10)
 
 
