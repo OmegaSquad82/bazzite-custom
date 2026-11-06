@@ -9,9 +9,11 @@ This custom image derives from [Bazzite](https://bazzite.gg/ "Bazzite - The next
 ## Customizations
 
 - Hardening for the OpenSSH daemon to only allow public key authentication and users in group `wheel`.
-- Tweaks to the virtual memory management subsystem for more aggressive swapping of pages to ZSWAP.
-- A tiered swap configuration with a ZRAM disk using dense `Zstd` as backing store for LRU pages.
-- I don't use swap on disk drives. Also see: [A MUST read: Debunking zswap and zram myths](https://linuxcommunity.io/t/a-must-read-debunking-zswap-and-zram-myths/13024).
+- Tweaks to the Virtual Memory Management for aggressive swapping.
+  - Enabled ZSWAP using `LZ4` to quickly absorb pages, tiered
+  - with ZRAM using `Zstd` as backing store for cold pages.
+  - Fedora does not use swap on disk drives by default:
+    - [A MUST read: Debunking zswap and zram myths](https://linuxcommunity.io/t/a-must-read-debunking-zswap-and-zram-myths/13024)
 - A Network Time Security configuration for chrony to use a selection of European servers.
 - A selection of packages incl. [DrawIO Desktop](https://get.diagrams.net/), [Libation](https://getlibation.com/) is installed during build.
 - Most Flatpaks I'm using are marked for installation during runtime.
