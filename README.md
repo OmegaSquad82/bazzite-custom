@@ -10,8 +10,7 @@ This custom image derives from [Bazzite](https://bazzite.gg/ "Bazzite - The next
 
 - Hardening for the OpenSSH daemon to only allow public key authentication and users in group `wheel`.
 - Tweaks to the Virtual Memory Management for aggressive swapping.
-  - Enabled ZSWAP using `LZ4` to quickly absorb pages, tiered
-  - with ZRAM using `Zstd` as backing store for cold pages.
+  - ZRAM configuration using `zstd` with up to mem>=16 GiB.
   - Fedora does not use swap on disk drives by default:
     - [A MUST read: Debunking zswap and zram myths](https://linuxcommunity.io/t/a-must-read-debunking-zswap-and-zram-myths/13024)
 - A Network Time Security configuration for chrony to use a selection of European servers.
